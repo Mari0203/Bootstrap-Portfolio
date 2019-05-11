@@ -5,42 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>HW2: Mari's Bootstrap Portfolio</title>
 
+    <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="../portfolio/assets/css/reset.css"> -->
+
+    <!-- CSS stylesheets-->
+    <link rel="stylesheet" href="../portfolio/assets/css/reset.css">
     <!-- <link rel="stylesheet" href="../portfolio/assets/css/index-style.css"> -->
 
 </head>
 
 <body>
 
-    <!-- Creates the overall grid -->
-    <div class="bootstrap-container">
+    <header>
 
-        <!-- ROW 1: Nav Bar -->
-        <header>
-            
+        <!-- ROW 1 -->
+        <div class="container">
+
             <!-- Name Logo -->
-            <div class="col-sm-3">
-                <a href="index.html" id="nameLogo">Mari Brands</a>
+            <div class="row">
+                <div class="col-sm-3">
+                    <a href="index.html" id="nameLogo">Mari Brands</a>
+                </div>
+
+                <!-- The Nav Bar & Links -->
+                <div class="col-sm-9">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"><a class="nav-link About" href="index.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link Portfolio" href="portfolio.html">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link Contact" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
             </div>
 
-            <!-- The Links of the Nav Bar -->
-            <div class="col-sm-9">
-                <ul class="nav justify-content-end">
-                    <li class="nav-item"><a class="nav-link About" href="index.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link Portfolio" href="portfolio.html">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link Contact" href="contact.html">Contact</a></li>
-                </ul>
-            </div>
+        </div>
 
-    </div>
-
-    <div class="clearfix">
-    </div>
-    </div>
-
+        <div class="clearfix"></div>
     </header>
 
     <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
