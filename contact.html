@@ -8,13 +8,12 @@
 
     <title>HW2: Mari's Bootstrap Portfolio</title>
 
-    <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
     <!-- CSS stylesheets-->
     <link rel="stylesheet" href="assets/css/reset.css">
-    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+    <link rel="stylesheet" href="assets/css/style.css">
 
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -22,11 +21,11 @@
 
         <!-- ROW 1 -->
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
 
                 <!-- Name Logo -->
                 <div class="col-sm-3">
-                    <div class="pull left"><a href="index.html" id="nameLogo">Mari Brands</a></div>
+                    <h1>Mari Brands</h1>
                 </div>
 
                 <!-- The Nav Bar & Links -->
@@ -38,9 +37,7 @@
                     </ul>
                 </div>
             </div>
-
         </div>
-
     </header>
 
     <!-- Main Content Section -->
@@ -50,34 +47,31 @@
         <div class="row">
             <div class="col-sm-12">
                 <h2>Contact</h2>
-                <hr>
-                <!-- Adds Horizontal Ruler (Code reference: https://www.w3schools.com/howto/howto_css_style_hr.asp) -->
             </div>
         </div>
 
         <!-- Bootstrap: Form Groups -->
-        <form>  
+        <form>
             <div class="form-group">
-              <label for="formGroupExampleInput">Name</label>
-              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Smith">
+                <label for="formGroupExampleInput">Name</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Smith">
             </div>
             <div class="form-group">
-              <label for="formGroupExampleInput2">Email</label>
-              <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="example@gmail.com">
+                <label for="formGroupExampleInput2">Email</label>
+                <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="example@gmail.com">
             </div>
             <div class="form-group">
                 <label for="formGroupExampleInput3">Message</label>
-                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Any questions or comments...">
-              </div>
+                <input type="text" class="form-control" id="formGroupExampleInput3">
+            </div>
             <button type="submit" class="btn btn-info">Submit</button>
-          </form>
+        </form>
 
     </main>
-    
+
     <!-- Footer -->
     <footer>
-        <hr>
-        <p class="text-center">copyright &copy; 2019 All Rights Reserved by Mari Brands.</p> <!-- Inserting a "copyrights" in the Footer. (Code referenced from https://youtu.be/fsnvwTyig2I) -->
+        <p class="text-center">copyright &copy; 2019 All Rights Reserved by Mari Brands.</p>
     </footer>
 
     <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
