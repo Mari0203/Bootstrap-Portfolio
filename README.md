@@ -2,7 +2,7 @@
 
 Build a portfolio layout using the Bootstrap CSS Framework.  Then, enhance the portfolio with a mobile-responsive layout.
 
-## Instructions (2 parts)
+## Instructions
 
 ### Part 1: Bootstrap
 Create a new GitHub repository with below name, containing index.html, portfolio.html and contact.html.
@@ -24,10 +24,5 @@ Using Bootstrap, recreate your portfolio site with the following items:
 - [ ] Your Bootstrap solution should minimize use of media queries.
 - [ ] Deploy your new Bootstrap-powered portfolio to GitHub Pages.
 
-
-### Part 2: No Bootstrap
-Copy the contents of **Basic-POrtfolio** (your Homework #1) and paste the mentioned files into **Responsive-Portfolio**.
-
-```
-Responsive-Portfolio
-```
+### Notes:
+Part 2 of this assignment is created in a separate repo, called **Responsive-Portfolio**.
